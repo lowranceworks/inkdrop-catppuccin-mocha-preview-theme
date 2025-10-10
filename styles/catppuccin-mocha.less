@@ -1,177 +1,206 @@
 body[class*="catppuccin-mocha"] {
   .mde-preview {
-    color: #cdd6f4; /* Text */
+    color: #ffffff; /* Text - white */
   }
-
   .mde-preview {
     a {
       background-color: transparent;
     }
-
     img {
       border: 0;
     }
-
     input {
       color: inherit;
     }
-
     a {
+      color: #b4befe; /* Lavender - links */
+    }
+    strong {
+      color: #f38ba8; /* Red - bold text */
+      font-weight: bold;
+    }
+    em {
+      color: #f38ba8; /* Red - italic text */
+      font-style: italic;
+    }
+    h1 {
+      color: #f38ba8; /* Red */
+      border-bottom-color: rgba(243, 139, 168, 0.5);
+    }
+    h2 {
+      color: #fab387; /* Peach */
+      border-bottom-color: rgba(250, 179, 135, 0.5);
+    }
+    h3 {
+      color: #f9e2af; /* Yellow */
+    }
+    h4 {
+      color: #a6e3a1; /* Green */
+    }
+    h5 {
       color: #89dceb; /* Sky */
     }
-
-    strong,
-    em {
-      color: white;
+    h6 {
+      color: #b4befe; /* Lavender */
     }
-
     h1,
     h2,
     h3,
     h4,
     h5,
     h6 {
-      color: #f9e2af; /* Yellow */
+      font-weight: bold;
     }
-
-    h6 {
-      color: rgba(249, 226, 175, 0.625); /* Yellow */
-    }
-
-    h1,
-    h2 {
-      border-bottom-color: rgba(249, 226, 175, 0.5); /* Yellow */
-    }
-
     hr {
-      background-color: rgba(249, 226, 175, 0.1); /* Yellow */
+      background-color: rgba(245, 194, 231, 0.3); /* Pink */
     }
-
     blockquote {
-      color: rgba(255, 255, 255, 0.4);
-      border-left: 4px solid rgba(255, 255, 255, 0.1);
+      color: #f5c2e7; /* Pink */
+      font-style: italic;
+      border-left: 4px solid rgba(245, 194, 231, 0.3);
     }
-
     table th {
-      background-color: rgba(255, 255, 255, 0.1);
+      background-color: rgba(255, 255, 255, 0.05);
+      font-weight: 600;
     }
-
     table th,
     table td {
-      border: 1px solid rgba(255, 255, 255, 0.25);
+      border: 1px solid #f5c2e7; /* Pink - table borders */
     }
-
     table tr {
       background-color: transparent;
-      border-top: 1px solid rgba(255, 255, 255, 0.25);
+      border-top: 1px solid #f5c2e7; /* Pink */
     }
-
     table tr:nth-child(2n) {
-      background-color: rgba(255, 255, 255, 0.05);
+      background-color: rgba(255, 255, 255, 0.02);
     }
-
     img {
       background-color: transparent;
     }
-
     .highlight pre,
     pre {
-      background-color: #11111b; /* Crust */
+      background-color: #181825; /* Mantle - code block background */
     }
-
+    code {
+      color: #a6e3a1; /* Green - inline code */
+      background-color: transparent;
+    }
     .cm-header {
+      font-weight: bold;
+    }
+    .cm-header-1 {
+      color: #f38ba8; /* Red */
+    }
+    .cm-header-2 {
+      color: #fab387; /* Peach */
+    }
+    .cm-header-3 {
       color: #f9e2af; /* Yellow */
     }
+    .cm-header-4 {
+      color: #a6e3a1; /* Green */
+    }
+    .cm-header-5 {
+      color: #89dceb; /* Sky */
+    }
+    .cm-header-6 {
+      color: #b4befe; /* Lavender */
+    }
     .cm-quote {
-      color: #94e2d5; /* Teal */
+      color: #f5c2e7; /* Pink */
       font-style: italic;
     }
     .cm-negative {
       color: #f38ba8; /* Red */
     }
     .cm-positive {
-      color: #292;
+      color: #a6e3a1; /* Green */
     }
-    .cm-header,
     .cm-strong {
+      color: #f38ba8; /* Red */
       font-weight: bold;
     }
     .cm-em {
+      color: #f38ba8; /* Red */
       font-style: italic;
     }
     .cm-link {
+      color: #b4befe; /* Lavender */
       text-decoration: underline;
     }
     .cm-strikethrough {
+      color: #7f849c; /* Overlay1 */
       text-decoration: line-through;
     }
-
     .cm-keyword {
-      color: #f38ba8; /* Red */
+      color: #cba6f7; /* Mauve */
       font-weight: normal;
     }
     .cm-atom {
-      color: #f5c2e7; /* Pink */
+      color: #89dceb; /* Sky */
     }
     .cm-number {
-      color: #f5c2e7; /* Pink */
+      color: #fab387; /* Peach */
     }
     .cm-def {
-      color: #89dceb; /* Sky */
+      color: #89b4fa; /* Blue */
     }
     .cm-property {
-      color: #89dceb; /* Sky */
+      color: #89b4fa; /* Blue */
     }
     .cm-operator {
-      color: #eba0ac; /* Maroon */
+      color: #89dceb; /* Sky */
     }
     .cm-variable,
     .cm-punctuation {
+      color: #ffffff; /* Text */
     }
     .cm-variable-2 {
+      color: #94e2d5; /* Teal - ordered lists */
+    }
+    .cm-variable-3 {
+      color: #89dceb; /* Sky - unordered lists */
+    }
+    .cm-type {
       color: #f9e2af; /* Yellow */
     }
-    .cm-variable-3,
-    .cm-type {
-      color: #eba0ac; /* Maroon */
-    }
     .cm-comment {
-      color: #a6adc8; /* Subtext 0 */
+      color: #6c7086; /* Overlay0 */
       font-style: italic;
     }
     .cm-string {
-      color: #74c7ec; /* Sapphire */
+      color: #a6e3a1; /* Green */
     }
     .cm-string-2 {
-      color: #f9e2af; /* Yellow */
+      color: #a6e3a1; /* Green */
     }
     .cm-meta {
-      color: #74c7ec; /* Sapphire */
+      color: #89dceb; /* Sky */
     }
     .cm-qualifier {
       color: #f9e2af; /* Yellow */
     }
     .cm-builtin {
-      color: #f5c2e7; /* Pink */
+      color: #f9e2af; /* Yellow */
     }
     .cm-bracket {
-      color: #f38ba8; /* Red */
+      color: #89dceb; /* Sky */
     }
     .cm-tag {
       color: #89b4fa; /* Blue */
     }
     .cm-attribute {
-      color: #89dceb; /* Sky */
+      color: #fab387; /* Peach */
     }
     .cm-hr {
-      color: #f9e2af; /* Yellow */
+      color: #f5c2e7; /* Pink */
     }
-    .cm-link {
-      color: #89dceb; /* Sky */
+    .cm-url {
+      color: #89b4fa; /* Blue - URLs */
+      text-decoration: underline;
     }
-
     .cm-error {
-      color: #f00;
+      color: #f38ba8; /* Red */
     }
   }
 }
